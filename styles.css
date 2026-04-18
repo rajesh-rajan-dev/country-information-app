@@ -1,0 +1,47 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    text-align: center;
+}
+.title{
+    text-align: left;
+    font-weight: bold;
+    width: 140px;
+    background-color: #d4d4d4;
+}
+.content{
+    background-color: #f1efef;
+}
+table{
+    width: 100%;
+    border: 1px;
+}
+td{
+    vertical-align: top;
+}
+#countryDropdown{
+    width: 200px;
+    height: 620px;
+}
+.width_160{
+    width: 160px;
+}
+#flag_tab{
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+#flag_tab td{
+    text-align: center;
+    font-weight: bold;
+    width: 50%;
+    border: 1px solid #d4d4d4;
+    vertical-align: middle;
+}
+#flag{
+    height: 182px;
+}
+#coaf_of_arms{
+    height: 320px;
+}

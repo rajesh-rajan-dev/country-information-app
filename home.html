@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Country and State data</title>
+        <!--include jquery library-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+    </head>
+    <body>
+        <h4 class="heading">RR : Country App</h4>
+        <table border="1">
+            <tr>
+                <td class="width_160">
+                    <select id="countryDropdown" multiple></select>
+                </td>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <td class="title">Official Name</td>
+                            <td class="content" id="official_name"></td>
+                            <td class="title">Independent</td>
+                            <td class="content" id="independent"></td>
+                            <td class="title">UN Member</td>
+                            <td class="content" id="un_member"></td>
+                            <td class="title">Currency</td>
+                            <td class="content" id="currency"></td>
+                        </tr>
+                        <tr>
+                            <td class="title">Country Code</td>
+                            <td class="content" id="country_code"></td>
+                            <td class="title">Capital</td>
+                            <td class="content" id="capital"></td>
+                            <td class="title">Region</td>
+                            <td class="content" id="region"></td>
+                            <td class="title">Sub Region</td>
+                            <td class="content" id="sub_region"></td>
+                        </tr>
+                        <tr>
+                            <td class="title">Area</td>
+                            <td class="content" id="area"></td>
+                            <td class="title">Population</td>
+                            <td class="content" id="population"></td>
+                            <td class="title">Continent</td>
+                            <td colspan="3" class="content" id="continent"></td>
+                        </tr>
+                        <tr>
+                            <td class="title">Borders</td>
+                            <td colspan="3" class="content" id="borders"></td>
+                            <td class="title">TimeZone</td>
+                            <td colspan="3" class="content" id="timezone"></td>
+                        </tr>
+                    </table>
+                    <br/>
+                    <table id="flag_tab">
+                        <tr>
+                            <td class="title">Flag</td>
+                            <td class="title">Coat of Arms</td>
+                        </tr>
+                        <tr>
+                            <td id="flag"></td>
+                            <td rowspan="2" id="coat_of_arms"></td>
+                        </tr>
+                        <td id="flag_desc"></td>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <script src="country_script.js"></script>
+
+    </body>
+</html>
