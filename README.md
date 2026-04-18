@@ -4,13 +4,7 @@ A web application that displays detailed information about every country in the 
 
 ![Country App Screenshot](screenshot.png)
 
-## Live Demo
 
-This project is hosted via GitHub Pages:
-
-**[View Live Demo](https://rajesh-rajan-dev.github.io/country-information-app/home.html)**
-
----
 
 ## Features
 
